@@ -1,0 +1,26 @@
+/*** MEDIA QUERIES ***/
+/* Jika Berukuran 980px atau kurang*/
+@media screen and (max-width:980px){
+	#pagewrap{
+		width:94%;
+	}
+	#content{
+		width:65%;
+	}
+	#sidebar{
+		width:30%;
+	}
+}
+
+/* Jika berukuran 700px atau kurang */
+@media screen and (max-width: 700px){
+	#header { width: 60% }
+}
+
+/* Jika berukuran 480 atau kurang */
+@media screen and (max-width:480px){
+	#header{
+		width: 40%;
+	}
+	#daftar-artikel{ width: 320px; }
+}
